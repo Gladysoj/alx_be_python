@@ -1,5 +1,5 @@
 age_str = input("How old are you? ")
-current_age = 27(age_str)
+current_age = int(age_str)
 
 years_until_2050 = 2050 - 2023
 
