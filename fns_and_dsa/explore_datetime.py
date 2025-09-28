@@ -13,8 +13,9 @@ def display_current_datetime():
 
         def main():
             display_current_datetime()
+            print("Enter the number of days to add to the current date:")
             try:
-                days_input = int(input("Enter number of days to add to the current date: "))
+                days_input = int(input())
                 calculate_future_date(days_input)
             except ValueError:
                 print("Invalid input. Please enter an integer value for days.")
