@@ -9,8 +9,7 @@ class BankAccount:
 
             def withdraw(self, amount):
                 """
-                Subtract money if enough balance exists.
-                Return True if successful, otherwise False.
+                Withdraw money if enough funds are available.
 
                 """
 
@@ -21,8 +20,8 @@ class BankAccount:
                     return False
                 
                 def display_balance(self):
-                    """Print the current balance in a nice format."""
+                    """Print the current account balance."""
 
                     print(f"Current Balance: ${self.account_balance:.2f}")
 
-        pass
+        
